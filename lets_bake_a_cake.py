@@ -19,7 +19,7 @@ Output the ingredients as above.
 
 flour_pp = 225/4
 butter_pp = 225/4
-sugar_pp = 125/4
+sugar_pp = 150/4
 eggs_pp = 4/4
 baking_powder_pp = 2/4
 

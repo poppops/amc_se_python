@@ -65,3 +65,24 @@ celebrities = {
         }
     }
 }
+
+print(f"1. Burna Boys real name is {celebrities['Burna Boy']['real_name']}");
+print(f"2. Tiwa Savage has {celebrities['Tiwa Savage']['followers']['Instagram']} instagram followers")
+print(f"3. Wizkid has released the following albums: ")
+
+for album in celebrities['Wizkid']['albums'].keys():
+    print(f"\t- {album}")
+
+celebrities['Rema']['followers']['YouTube'] = 2000000
+print(f"4. Rema now has {celebrities['Rema']['followers']['YouTube']} YouTube followers")
+print(f"5. Burna Boy's Twice as Tall album is as described as: {celebrities['Burna Boy']['albums']['Twice as Tall']}")
+
+#    6. Add a new album for Tiwa Savage called "Water & Garri" with the description "A blend of Afrobeats and soulful R&B, released in 2021."
+celebrities['Tiwa Savage']['albums']['Water & Garri'] = "A blend of Afrobeats and soulful R&B, released in 2021."
+print(f"6. Tiwa Savage has released the following albums: ")
+for album in celebrities['Tiwa Savage']['albums'].keys():
+    print(f"\t- {album}: {celebrities['Tiwa Savage']['albums'][album]}")
+
+#   7. Extract and print the birthdates of all the artists in the dictionary.
+for celebrity in celebrities:
+    print(f'{celebrity} birthday is {celebrities[celebrity]['date_of_birth']}')

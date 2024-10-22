@@ -60,13 +60,13 @@
 
 ### 5. **Defining Functions**
 
-1. Write a function `greet(name)` that takes a person's name as an argument and prints "Hello, [name]!".
-2. Create a function `add(a, b)` that takes two numbers as arguments and returns their sum.
-3. Write a function `is_even(n)` that returns `True` if the input number is even and `False` if it is odd.
-4. Define a function `factorial(n)` that takes a positive integer `n` and returns its factorial.
-5. Write a function `find_max(lst)` that takes a list of numbers as an argument and returns the largest number.
-6. Create a function `reverse_string(s)` that takes a string and returns the string in reverse order.
-7. Define a function `count_vowels(s)` that takes a string and returns the number of vowels in the string.
-8. Write a function `is_prime(n)` that takes an integer and returns `True` if it is a prime number and `False` otherwise.
-9. Define a function `fibonacci(n)` that takes an integer `n` and returns the first `n` numbers in the Fibonacci sequence.
-10. Create a function `average(numbers)` that takes a list of numbers and returns their average.
+1. Define a function `greet_user()` that takes no arguments and prints "Welcome to the program!".
+2. Write a function `multiply(a, b)` that returns the product of two numbers.
+3. Create a function `is_divisible(a, b)` that returns `True` if `a` is divisible by `b`, and `False` otherwise.
+4. Write a function `power(base, exponent)` that returns the result of raising `base` to the power of `exponent`.
+5. Define a function `min_of_three(a, b, c)` that takes three numbers and returns the smallest one.
+6. Write a function `capitalize_words(sentence)` that takes a string and returns the sentence with each word capitalized.
+7. Create a function `sum_of_squares(n)` that takes an integer `n` and returns the sum of the squares of all numbers from 1 to `n`.
+8. Define a function `count_consonants(s)` that takes a string and returns the number of consonants in the string.
+9. Write a function `remove_duplicates(lst)` that takes a list and returns a new list with duplicates removed.
+10. Create a function `circle_area(radius)` that calculates and returns the area of a circle, given its radius (use π = 3.14159).

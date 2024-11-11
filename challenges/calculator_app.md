@@ -1,7 +1,3 @@
-Here's the **Basic Calculator** exercise in Markdown format:
-
----
-
 ### **Exercise: Basic Calculator**
 
 **Objective**: Build a simple calculator interface where users can input two numbers and perform basic arithmetic operations: addition, subtraction, multiplication, and division.

@@ -12,12 +12,18 @@ class User:
         # Save the user information to a file
         # Create a file to save the user information
         try:
-            userFile = open(self.getUserFileName(), "r")
+            userFile = open(self.getUserFileName(), "w")
             # Write the user information to the file
-            userFile.write(f"firstName:{self.firstName}\n")
-            userFile.write(f"lastName:{self.lastName}\n")
-            userFile.write(f"dob:{self.dob}\n")
-            userFile.write(f"password:{self.password}\n")
+            # userFile.write(f"firstName:{self.firstName}\n")
+            # userFile.write(f"lastName:{self.lastName}\n")
+            # userFile.write(f"dob:{self.dob}\n")
+            # userFile.write(f"password:{self.password}\n")
+            
+            # Implement writing to file using a loop with the dir() function
+            for attr in dir(self):
+                if attr[0] != "_" and attr not in ('create', 'retrieve', 'getUserFileName'):
+                    userFile.write(f"{attr}:{getattr(self, attr)}\n")
+                    
             # Close the file
             userFile.close()
             # Provide feedback
